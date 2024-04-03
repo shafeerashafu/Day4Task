@@ -1,0 +1,31 @@
+Difference between Window, Screen and Document Object
+
+Window Object: 
+
+The window object represents the browser window or tab that contains the document. 
+It is the global object in client-side JavaScript and acts as the interface between JavaScript code 
+and the browser environment. The window object provides access to various properties and methods related
+to the browser window, such as window.innerWidth, window.location, window.alert(), etc. 
+It also serves as the global scope for JavaScript code running in the browser.Window represents the 
+browser window/tab and provides access to browser-related properties and methods.
+Syntax: window.propertyname;
+An example for window object- window.innerHeight : will return the height of the content area of the browser.
+
+Screen Object:
+
+The screen object represents the user's screen or display device. It provides properties such as screen.width,
+screen.height, screen.availWidth, screen.availHeight, etc., which give information about the user's screen 
+resolution and available screen space. The screen object is useful for determining the dimensions and characteristics
+of the user's screen, which can be helpful for creating responsive web designs or adjusting the layout of web content
+based on the screen size.screen represents the user's screen and provides information about its dimensions and characteristics.
+
+
+Document Object:
+
+The document object represents the web page or document currently loaded in the browser window. It provides access to the 
+DOM (Document Object Model) of the web page, allowing JavaScript code to interact with and manipulate the elements on the 
+page. For example, you can use document.getElementById(), document.querySelector(), document.createElement(), etc., to access
+or modify HTML elements, handle events, and manipulate the structure and content of the web page dynamically.document 
+represents the web page loaded in the browser and provides access to the DOM for interacting with page elements.
+Syntax: document.propertyname;
+An example for document object- document.title :  will return the title of the document.
